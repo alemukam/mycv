@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+}
+
+
+h1 {
+	font-family: 'Frijole', cursive;
+	text-shadow: 1.5px 2px 1px rgb(52, 98, 173);
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		text-align: center;
+	}
+}
+
+#first {
+	background-color: white;
+}
+
+#second {
+	margin-top: 50px;
+}
+
+h1 span {
+	font-size: 45px;
+	color: rgb(52, 98, 173);
+	text-shadow: 1.5px 2px 1px black;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+h2 {
+	margin: auto;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 16px;
+}
+
+img {
+	display: block;
+    margin: auto;
+}
+
+tr {
+	display: flex;
+	align-items: flex-start;
+}
+
+.amats {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.pienakumi {
+	font-style: italic;
+}
+
+.center {
+	text-align: center;
+}
+
+h3 {
+	transition-property: font-weight;
+	transition-delay: 0.15s;
+}
+
+.panel-heading:hover {
+	background-color: rgb(174, 194, 226);
+	font-weight: bold;
+}
+
+.panel-heading:hover h3 {
+	font-weight: bold;
+	cursor: default;
+}
+
+img {
+	position: fixed;
+	z-index: 1;
+}
+
+#languageBars p {
+	display: inline-block;
+	margin: 0;
+	padding: 10px 5px;
+	background-color: rgb(52, 98, 173);
+	color: white;
+	border: solid 1px rgb(52, 98, 173);
+}
+
+#languageBars p:hover {
+	cursor: pointer;
+	color: rgb(52, 98, 173);
+	background-color: white;
+	border: solid 1px black;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+  }
