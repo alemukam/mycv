@@ -2,72 +2,302 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Login</title>
-	<link rel="icon" type="image/jpg" href="http://japan-magazine.jnto.go.jp/jnto2wm/wp-content/uploads/1608_special_TOTO_main.jpg" />
+	<title>Mans CV</title>
+	<link rel="icon" type="image/png" href="img/logo_noBG.png" />
 		<!--Bootstrap css link -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<!-- Bootstrap themes link -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 		<!-- My css file -->
-		<link rel="stylesheet" type="text/css" href="css/myCss/mainSubmit.css">
+		<link rel="stylesheet" type="text/css" href="css/myCss/cv.css">
 		<!-- Google fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+		
 </head>
-<div class="container-fluid fixed-top">
+<body>
+
+	<div id="first" class="container-fluid navbar-fixed-top">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-sm-2">
 				<h1>Mans<span>CV</span>.tk</h1>
 			</div>
-		</div>
-	</div>
-<body>
-	
-	<div id="mainDiv" class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-8 col-md-6 col-sm-push-2 col-md-push-3">
-				<form id="submit-form" method="POST" action="">
-					<input type="text" name="login" placeholder="Login" autocomplete="off" />
-					<input type="password" name="password" placeholder="Password" autocomplete="off" />
-						<button class="col-xs-6 col-xs-push-3" type="submit">
-							Login
-						</button>
-				</form>
+			<div class="col-xs-12 col-sm-10">
+				<div class="col-xs-12 col-lg-7">
+					<h2><span>Curriculum Vitae / </span><a href="cl.html">Motivācijas vēstule</a></h2>
+				</div>
+				<div id="languageBars" class="col-xs-12 col-lg-5 text-right">
+					<p id="btn-lv">Latviski</p>
+					<p id="btn-en">English</p>
+					<p id="btn-ru">По-русски</p>
+					<p id="btn-de">Deutsch</p>
+					<p id="btn-jp">日本語</p>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container">
+	<div id="second" class="container-fluid">
 		<div class="row">
-			<div class="col-xs-12 col-sm-8 col-md-6 col-sm-push-2 col-md-push-3">
-				<p></p>
+			<div class="col-xs-12 col-sm-7">
+				<div class="panel-group" id="myPanel">
+					<!-- Job experience panel -->
+					<div class="container-fluid nopadding">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="panel">
+									<div class="panel-heading">
+										<h3 class="panel-title" data-toggle="collapse" data-target="#panel-2">Darba pieredze</h3>
+									</div>
+									<div id="panel-2" class="panel-collapse collapse">
+										<div class="panel-body">
+											<table class="table">
+												<tbody>
+													<tr>
+														<td class="col-xs-4">
+															<p class="period">2016.gada 25. janvāris –<br>šis brīdis</p>
+														</td>
+														<td class="col-xs-8">
+															<p><span class="amats">Grāmatvedis</span><br><a href="https://www.tieto.lv" target="_blank">Tieto Latvia, SIA</a><br><span class="pienakumi">Pienākumi:</span><br><span class="misc">Debitoru un naudas plūsmas grāmatvedība</span></p>
+														</td>
+													</tr>
+													<tr>
+														<td class="col-xs-4">
+															<p class="period">2015. gada 5. maijs −<br>2015. gada 26. oktobris</p>
+														</td>
+														<td class="col-xs-8">
+															<p><span class="amats">Tehniskā palīdzība</span><br><a href="http://domenika.lv/search/index" target="_blank">Domenika Latvia, SIA</a><br><span class="pienakumi">Pienākumi:</span><br><span class="misc">Palīdzība IT administratoram, līgumu un līgumu pielikumu tulkošana, datu bāzes objektu aprakstu izveide</span></p>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+								<!-- Closing tags of the DIV -->
+							</div>
+						</div>
+					</div>
+					<!-- Education panel -->
+					<div class="container-fluid nopadding">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="panel">
+									<div class="panel-heading">
+										<h3 class="panel-title" data-toggle="collapse" data-target="#panel-3">Izglītība</h3>
+									</div>
+									<div id="panel-3" class="panel-collapse collapse">
+										<div class="panel-body">
+											<table class="table">
+												<tbody>
+													<tr>
+														<td class="col-xs-4">
+															<p class="period">2017.gada septembris −<br>šis brīdis</p>
+														</td>
+														<td class="col-xs-8">
+															<p><span class="amats">1. līmeņa profesionālās augstākās izglītības programma “Programmēšana un datortīklu administrēšana”</span><br><a href="http://www.ba.lv/lv/" target="_blank">Latvijas Universitāte</a><br><span class="pienakumi">Priekšmeti:</span><br><span class="misc">vēl nav zināms</span></p>
+
+														</td>
+													</tr>
+													<tr>
+														<td class="col-xs-4">
+															<p class="period">2013. gada septembris  −<br>2017. gada jūnijs</p>
+														</td>
+														<td class="col-xs-8">
+															<p><span class="amats">Bakalaura studiju programma “Finanses”</span><br><a href="http://www.ba.lv/lv/" target="_blank">Banku augstskola</a><br><span class="pienakumi">Priekšmeti:</span><br><span class="misc">Finanšu grāmatvedība, nodokļi, finanšu analīze, svešvalodas (angļu un vācu)</span></p>
+
+														</td>
+													</tr>
+													<tr>
+														<td class="col-xs-4">
+															<p class="period">2001. gada septembris −<br>2013. gada maijs</p>
+														</td>
+														<td class="col-xs-8">
+															<p><span class="amats">Vidusskolas izglītība</span><br><a href="http://pushkinalicejs.lv/index.php/lv/" target="_blank">Puškina licejs</a></p>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+								<!-- Closing tags of the DIV -->
+							</div>
+						</div>
+					</div>
+					
+					<!-- Additional education panel -->
+					<div class="container-fluid nopadding">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="panel">
+									<div class="panel-heading">
+										<h3 class="panel-title" data-toggle="collapse" data-target="#panel-4">Papildus izglītība</h3>
+									</div>
+									<div id="panel-4" class="panel-collapse collapse">
+										<div class="panel-body">
+											<table class="table">
+												<tbody>
+													<tr>
+														<td class="col-xs-4">
+															<p class="period">2017. gada aprīlis –<br>2017. gada maijs</p>
+														</td>
+														<td class="col-xs-8">
+															<p><span class="amats">Kurss “Computer Programming”</span><br><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a><br><span class="pienakumi">Prasmes:</span><br>HTML, CSS, JavaScript, MySQL <span class="misc">un</span> jQuery</p>
+
+														</td>
+													</tr>
+													<tr>
+														<td class="col-xs-4">
+															<p class="period">2017. gada maijs –<br>šis brīdis</p>
+														</td>
+														<td class="col-xs-8">
+															<p><span class="amats">Kurss “Programming”</span><br><a href="https://www.codecademy.com/learn" target="_blank">Codeacademy</a><br><span class="pienakumi">Prasmes:</span><br>HTML, CSS, Responsive design, JavaScript, MySQL <span class="misc">un</span> Sass</p>
+														</td>
+													</tr>
+													<tr>
+														<td class="col-xs-4">
+															<p class="period">2016. gada oktobris</p>
+														</td>
+														<td class="col-xs-8">
+															<p><span class="amats">Kurss “Financial Accounting Basics”</span><br><a href="http://growingtalent.eu" target="_blank">Growing Talent </a><span class="misc">sadarbībā ar Tieto Latvia, SIA</span><br><span class="pienakumi">Prasmes:</span><br><span class="misc">Pilns grāmatvedības cikls</span></p>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+					<!-- Closing tags of the DIV -->
+							</div>
+						</div>
+					</div>
+					<!--Language panel -->
+					<div class="container-fluid nopadding">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="panel">
+									<div class="panel-heading">
+										<h3 class="panel-title" data-toggle="collapse" data-target="#panel-5">Valodu prasmes</h3>
+									</div>
+									<div id="panel-5" class="panel-collapse collapse">
+										<div class="panel-body">
+											<table class="table table-striped">
+												<thead>
+													<tr>
+														<th class="col-xs-3">Valoda</th>
+														<th class="col-xs-3 center">Runāju</th>
+														<th class="col-xs-3 center">Saprotu</th>
+														<th class="col-xs-3 center">Rakstu</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td class="col-xs-3 language-data">Krievu</td>
+														<td class="col-xs-3 center language-data">dzimtā</td>
+														<td class="col-xs-3 center language-data">dzimtā</td>
+														<td class="col-xs-3 center language-data">dzimtā</td>
+													</tr>
+													<tr>
+														<td class="col-xs-3 language-data">Angļu</td>
+														<td class="col-xs-3 center language-data">teicami</td>
+														<td class="col-xs-3 center language-data">teicami</td>
+														<td class="col-xs-3 center language-data">teicami</td>
+													</tr>
+													<tr>
+														<td class="col-xs-3 language-data">Latviešu</td>
+														<td class="col-xs-3 center language-data">ļoti labi</td>
+														<td class="col-xs-3 center language-data">teicami</td>
+														<td class="col-xs-3 center language-data">ļoti labi</td>
+													</tr>
+													<tr>
+														<td class="col-xs-3 language-data">Vācu</td>
+														<td class="col-xs-3 center language-data">labi</td>
+														<td class="col-xs-3 center language-data">ļoti labi</td>
+														<td class="col-xs-3 center language-data">labi</td>
+													</tr>
+													<tr>
+														<td class="col-xs-3 language-data">Japāņu</td>
+														<td class="col-xs-3 center language-data">sākumlīmenis</td>
+														<td class="col-xs-3 center language-data">sākumlīmenis</td>
+														<td class="col-xs-3 center language-data">sākumlīmenis</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+								<!-- Closing tags of the DIV -->
+							</div>
+						</div>
+					</div>
+					<!-- Other stuff panel -->
+					<div class="container-fluid nopadding">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="panel">
+									<div class="panel-heading">
+										<h3 class="panel-title" data-toggle="collapse" data-target="#panel-6">Citas prasmes</h3>
+									</div>
+									<div id="panel-6" class="panel-collapse collapse">
+										<div class="panel-body">
+											<table class="table">
+												<tbody>
+													<tr>
+														<td class="col-xs-4">
+															<p><span class="amats">Datorprasmes</span></p>
+														</td>
+														<td class="col-xs-8">
+															<p><span class="pienakumi">Web programmēšana:</span><br>HTML, CSS, JavaScript, jQuery, Knockout.js, Bootstrap<br><span class="pienakumi">Web servera programmēšana:</span><br>PHP, MySQL, WordPress<br><span class="pienakumi">Citas:</span><br>MS Office (Word, Excel, PowerPoint, Access)</p>
+														</td>
+													</tr>
+													<tr>
+														<td class="col-xs-4">
+															<p><span class="amats">Autovadītāja apliecība</span></p>
+														</td>
+														<td class="col-xs-8">
+															<p><span class="pienakumi">Kategorija:</span><br>B (<span class="misc">kopš</span> 17.10.2013)</p>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+								<!-- Closing tags of the DIV -->
+							</div>
+						</div>
+					</div>
+					<!-- My hobbies panel -->
+					<div class="container-fluid nopadding">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="panel">
+									<div class="panel-heading">
+										<h3 class="panel-title" data-toggle="collapse" data-target="#panel-7">Intereses</h3>
+									</div>
+									<div id="panel-7" class="panel-collapse collapse">
+										<div class="panel-body">
+											<p><span class="misc">Futbola fristails, snūkers, Japāna, skriešana</span></p>
+										</div>
+									</div>
+								</div>
+								<!-- Closing tags of the DIV -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="imageContainer" class="col-xs-12 col-sm-5">
+				<img src="img/image.jpg">
 			</div>
 		</div>
 	</div>
-
 
 <!-- jQuery links -->
 <script type="text/javascript" src="jQuery/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="jQuery/underscore-min.js"></script>
-<script type="text/javascript" src="jQuery/backbone-min.js"></script>
+
 <!-- js bootstrap link -->
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/myJS/javaScript.js"></script>
+<script type="text/javascript" src="js/myJS/CVjavaScript.js"></script>
 </body>
 </html>
-
-<!--
- <h1>Donut Calculator</h1>
-    
-    <p>Winston eats 3 donuts a day. How many donuts will he eat in his lifetime?</p>
-    
-    <form id="calculator-form">
-        <label>
-            Winston's final age:
-            <input type="number" name="age">
-        </label>
-        <button type="submit">Calculate</button>
-        <div id="calculator-results"></div>
-    </form>
-	
-	-->
