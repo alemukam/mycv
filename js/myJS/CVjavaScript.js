@@ -11,13 +11,13 @@ var latviski = {
 /* h2 span */ h2s: "Curriculum Vitae / ",
 /* h2 a */ h2a: "Motivācijas vēstule",
 /* headings */ panelTitle: ["Darba pieredze", "Izglītība", "Papildus izglītība", "Valodu prasmes", "Citas prasmes", "Intereses"],
-/* periods */ period: ["2016.gada 25. janvāris –<br>šis brīdis", "2015. gada 5. maijs −<br>2015. gada 26. oktobris", "2017. gada septembris −<br>šis brīdis", "2013. gada septembris  −<br>2017. gada jūnijs", "2001. gada septembris −<br>2013. gada maijs", "2017. gada aprīlis –<br>2017. gada maijs", "2017. gada maijs –<br>šis brīdis", "2016. gada oktobris"],
-/* class="amats" */ amats: ["Grāmatvedis", "Tehniskā palīdzība", "1. līmeņa profesionālās augstākās izglītības programma “Programmēšana un datortīklu administrēšana”", "Bakalaura studiju programma “Finanses”", "Vidusskolas izglītība", "Kurss “Datorprogrammēšana”", "Kurss “Programmēšana”", "Kurss “Finanšu grāmatvedibas pamati”", "Datorprasmes", "Autovadītāja apliecība"],
-/* text of the links */ links: ["Tieto Latvia, SIA", "Domenika Latvia, SIA", "Latvijas Universitāte", "Banku augstskola", "Puškina licejs"],
-/* class="pienakumi" */ pienakumi: ["Pienākumi:", "Pienākumi:", "Priekšmeti:", "Priekšmeti:", "Prasmes:", "Prasmes:", "Prasmes:", "Web programmēšana:", "Web servera programmēšana:", "Citas:", "Kategorija:"],
+/* periods */ period: ["2017. gada 1. decembris –<br>šis brīdis", "2016.gada 25. janvāris –<br>2017. gada 5. septembris", "2015. gada 5. maijs −<br>2015. gada 26. oktobris", "2017. gada septembris −<br>šis brīdis", "2013. gada septembris  −<br>2017. gada jūnijs", "2001. gada septembris −<br>2013. gada maijs", "2017. gada aprīlis –<br>2017. gada maijs", "2017. gada maijs –<br>šis brīdis", "2016. gada oktobris"],
+/* class="amats" */ amats: ["RPA izstrādātājs", "Grāmatvedis", "Tehniskā palīdzība", "1. līmeņa profesionālās augstākās izglītības programma “Programmēšana un datortīklu administrēšana”", "Bakalaura studiju programma “Finanses”", "Vidusskolas izglītība", "Kurss “Datorprogrammēšana”", "Kurss “Programmēšana”", "Kurss “Finanšu grāmatvedibas pamati”", "Datorprasmes", "Autovadītāja apliecība"],
+/* text of the links */ links: ["Accenture Latvijas filiāle", "Tieto Latvia, SIA", "Domenika Latvia, SIA", "Latvijas Universitāte", "Banku augstskola", "Puškina licejs"],
+/* class="pienakumi" */ pienakumi: ["Pienākumi", "Pienākumi:", "Pienākumi:", "Priekšmeti:", "Priekšmeti:", "Prasmes:", "Prasmes:", "Prasmes:", "Web programmēšana:", "Web servera programmēšana:", "Citas:", "Kategorija:"],
 /* table headers */ tabHeader: ["Valoda", "Runāju", "Saprotu", "Rakstu"],
 /* table content */ tabCont: ["Krievu", lat[0], lat[0], lat[0], "Angļu", lat[1], lat[1], lat[1], "Latviešu", lat[2], lat[1], lat[2], "Vācu", lat[3], lat[2], lat[3], "Japāņu", lat[4], lat[4], lat[4]],
-/*remainign stuff */ misc: ["Debitoru un naudas plūsmas grāmatvedība", "Palīdzība IT administratoram, līgumu un līgumu pielikumu tulkošana, datu bāzes objektu aprakstu izveide", "vēl nav zināms", "Finanšu grāmatvedība, nodokļi, finanšu analīze, svešvalodas (angļu un vācu)", "un", "un", "sadarbībā ar Tieto Latvia, SIA", "Pilns grāmatvedības cikls", "kopš", "Futbola fristails, snūkers, Japāna, skriešana"],
+/*remainign stuff */ misc: ["Procesu automatizācija (.NET programmēšana)", "Debitoru un naudas plūsmas grāmatvedība", "Palīdzība IT administratoram, līgumu un līgumu pielikumu tulkošana, datu bāzes objektu aprakstu izveide", "vēl nav zināms", "Finanšu grāmatvedība, nodokļi, finanšu analīze, svešvalodas (angļu un vācu)", "un", "un", "sadarbībā ar Tieto Latvia, SIA", "Pilns grāmatvedības cikls", "kopš", "Futbola fristails, snūkers, Japāna, skriešana"],
 };
 
 var english = {
